@@ -1,7 +1,7 @@
 {
   "name": "",
   "version": "1.0.0",
-  "description": "A simple TCP ping util, written in Typescript, to test the reachability and latency of a host.",
+  "description": "An open-source repo template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
