@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/status-awesome-red.svg?style=flat)
 
-A simple promise-based TCP ping util, written in Typescript, to test the reachability and latency of a host.
+An open-source repo template
 
 ## Installation
 
