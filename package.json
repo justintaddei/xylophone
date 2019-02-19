@@ -1,11 +1,11 @@
 {
   "name": "xylophone",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Simple library for creating tones using the WebAudioAPI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "exit 0",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
@@ -23,7 +23,13 @@
     "url": "https://github.com/justintaddei/xylophone/issues"
   },
   "homepage": "https://github.com/justintaddei/xylophone",
-  "keywords": [],
+  "keywords": [
+    "webaudio",
+    "note",
+    "audio",
+    "sound",
+    "effect"
+  ],
   "files": [
     "dist/**/*"
   ],
