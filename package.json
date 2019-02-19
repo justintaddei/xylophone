@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "xylophone",
   "version": "1.0.0",
-  "description": "An open-source repo template",
+  "description": "Simple library for creating tones using the WebAudioAPI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,15 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justintaddei/.git"
+    "url": "git+https://github.com/justintaddei/xylophone.git"
   },
   "bugs": {
-    "url": "https://github.com/justintaddei/____/issues"
+    "url": "https://github.com/justintaddei/xylophone/issues"
   },
-  "homepage": "https://github.com/justintaddei/",
-  "engines": {
-    "node": ">=8.10.0"
-  },
+  "homepage": "https://github.com/justintaddei/xylophone",
   "keywords": [],
   "files": [
     "dist/**/*"
