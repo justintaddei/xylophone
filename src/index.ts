@@ -147,7 +147,7 @@ export class Xylophone {
     return this.context
   }
   public static toHertz(note: string): number {
-    note = note.trim().toUpperCase()
+    note = note.trim()
     if (note in NOTES) return NOTES[note]
     throw new Error(`${note} is not a valid note`)
   }
