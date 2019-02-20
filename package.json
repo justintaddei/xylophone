@@ -1,6 +1,6 @@
 {
   "name": "xylophone",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Simple library for creating tones using the WebAudioAPI",
   "main": "releases/cjs/js/index.js",
   "esnext": "releases/esnext/js/index.js",
