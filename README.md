@@ -21,6 +21,11 @@ await xylophone.play('G3, E3, C3', 0.5, 0.2)
 xylophone.play('C4, E4, G4', 0.5, 0.2)
 ```
 
+## To-Do
+- [ ] Add more documentation
+- [ ] Make cross-browser
+- [ ] Complie to es5
+
 ## License
 
 MIT
