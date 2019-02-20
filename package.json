@@ -40,7 +40,6 @@
   "author": "Justin Taddei",
   "license": "MIT",
   "devDependencies": {
-    "@babel/register": "^7.0.0",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-rollup": "^2.16.2",
