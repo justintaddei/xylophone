@@ -29,7 +29,10 @@
     "note",
     "audio",
     "sound",
-    "effect"
+    "effect",
+    "xylophone",
+    "keyboard",
+    "instrument"
   ],
   "files": [
     "releases/**/*"
