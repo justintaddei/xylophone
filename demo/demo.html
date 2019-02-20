@@ -7,15 +7,33 @@
     <title>xylophone</title>
   </head>
   <body>
-    <script src="../dist/index.js"></script>
+    <script src="../releases/iife/xlyophone.js"></script>
 
     <script>
-      let note
+      let xylophone
       document.onclick = async () => {
-        if (!note) note = new Xylophone()
+        if (!xylophone) xylophone = new Xylophone()
 
-        await note.play('G3, E3, C3', 0.5, 0.2)
-        note.play('C4, E4, G4', 0.5, 0.2)
+        xylophone.loop([
+          {
+            notes: ['C4', 'E4', 'C4', 'E4'],
+            length: 0.5,
+            offset: 0.25,
+            type: 'square'
+          },
+          {
+            notes: ['C4', 'G4', 'A3'],
+            length: 0.3,
+            offset: 0.25,
+            type: 'triangle'
+          },
+          {
+            notes: ['C4', 'B3', 'Bb3', 'A#3', 'A3'],
+            length: 0.5,
+            offset: 0.25,
+            type: 'sawtooth'
+          }
+        ])
       }
     </script>
   </body>

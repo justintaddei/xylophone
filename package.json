@@ -2,11 +2,12 @@
   "name": "xylophone",
   "version": "1.1.0",
   "description": "Simple library for creating tones using the WebAudioAPI",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "releases/cjs/js/index.js",
+  "esnext": "releases/esnext/js/index.js",
+  "types": "releases/esnext/definitions/index.d.ts",
   "scripts": {
     "test": "exit 0",
-    "build": "tsc",
+    "build": "gulp",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
@@ -31,11 +32,17 @@
     "effect"
   ],
   "files": [
-    "dist/**/*"
+    "releases/**/*"
   ],
   "author": "Justin Taddei",
   "license": "MIT",
   "devDependencies": {
+    "@babel/register": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rollup": "^2.16.2",
+    "gulp-typescript": "^5.0.0",
+    "merge2": "^1.2.3",
     "prettier": "^1.16.4",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.18.0",
