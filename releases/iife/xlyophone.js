@@ -206,7 +206,7 @@ var Xylophone = /** @class */ (function () {
     };
     /**
      * Plays a series of notes in an `IMeasure`. If an array of `IMeasure`s is given then
-     * each `IMeasure will play when the previous one completes. Resolves when all sound has stopped.
+     * each `IMeasure` will play when the previous one completes. Resolves when all sound has stopped.
      * @param measure The `IMeasure` or `IMeasure[]` to play
      */
     Xylophone.prototype.play = function (measure) {

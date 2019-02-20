@@ -30,7 +30,7 @@ export default class Xylophone {
     private context;
     /**
      * Plays a series of notes in an `IMeasure`. If an array of `IMeasure`s is given then
-     * each `IMeasure will play when the previous one completes. Resolves when all sound has stopped.
+     * each `IMeasure` will play when the previous one completes. Resolves when all sound has stopped.
      * @param measure The `IMeasure` or `IMeasure[]` to play
      */
     play(measure: IMeasure | IMeasure[]): Promise<void>;
