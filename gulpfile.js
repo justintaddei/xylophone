@@ -57,7 +57,7 @@ const iife = () => {
           }
         })
       )
-      .pipe(rename('xlyophone.js'))
+      .pipe(rename('xylophone.js'))
       .pipe(gulp.dest('./releases/iife/'))
   )
 }
